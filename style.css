@@ -1,30 +1,76 @@
-body{
-    margin: 20px;
-}
 
-h1{
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.area-input{
+*{
+    font-family:"Roboto", serif; 
+   
+}
+.forms{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    border: solid 2px rgb(230, 230, 230);
+    padding: 10px;
+    padding-top:  40px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
 }
 
 input{
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 5px;
+    background-color: rgb(241, 241, 241);
     border-radius: 5px;
+    border: none;
+    width: 250px;
+
 }
 
-button{
-    padding: 10px 20px;
-    background-color: #4caf;
+#cadastrese{
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(27, 94, 238);
     color: white;
     border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    cursor: pointer;
+    border-radius: 10px;
+    width: 250px;
 }
 
+img{
+    width: 200px;
+    height: 80px;
+}
+
+.legenda{
+    font-style: initial;
+    font-size: 17px;
+    margin: 12px;
+    color: rgb(163, 163, 163);
+    
+   
+}
+
+.face{
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(92, 139, 241);
+    color: white;
+}
+
+.ou{
+    color:rgb(163, 163, 163) ;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
